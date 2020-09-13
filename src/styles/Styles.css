@@ -1,0 +1,55 @@
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+    width: 80vw;
+}
+
+.content{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+}
+
+.task-item{
+    display: flex;
+    width: 100%;
+    margin: auto 10px;
+}
+
+.strikeThrough{
+    text-decoration: line-through;
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.buttonArea > button {
+    margin: 4px;
+}
+
+.taskInput{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin: 20px;
+    width: 60vw;
+}
+.m-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
