@@ -3,8 +3,6 @@ import './App.css'
 import Input from './components/Input'
 import Tasks from './components/Tasks'
 import './styles/Styles.css'
-// import { Button } from '@material-ui/core'
-
 
 const App  = () => {
 
@@ -36,7 +34,7 @@ const App  = () => {
   
   return(
     <div className = 'centered' >
-      <h1> React To Do </h1>
+      <h1> Day to Day </h1>
       <Input  addTask = { addTask } />
       <Tasks  deleat = {deleat} status = {status} todos = {todos } />
     </div>
