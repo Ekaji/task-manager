@@ -5,9 +5,9 @@ import '../styles/Styles.css'
 const Tasks = ( {todos, deleat, status} ) => {
 
     return(
-        <div className = 'tasks-container'>
+        <div className = 'tasks-container '>
             {todos.map(todo => 
-                (<div className = 'content'  key = {todo.id}> <span className = {`task-item ${todo.completed? "strikeThrough" : "none"}`}> {todo.task} </span>
+                (<div className = 'content list'  key = {todo.id}> <span className = {`task-item ${todo.completed? "strikeThrough" : "none"}`}> {todo.task} </span>
                 <span className = 'buttonArea'>
                     <button onClick = {() => status(todo)} > Done </button> 
                     <button onClick = { () => deleat(todo.id) } > Deleat </button> 

@@ -21,7 +21,7 @@ const Input = ({addTask}) => {
  
     return(
         <form onSubmit = { handleSubmit } >
-         <input value ={newTask.task} className = 'taskInput' placeholder='New Task' type='text' name = 'task' onChange = { setTask } />
+         <input value = {newTask.task} className = 'taskInput' placeholder='New Task' type='text' name = 'task' onChange = { setTask } />
             <Dropdown setTask = { setTask } />
             <div className = 'm-button'>
                 <button variant="outlined" color="secondary" onClick = {handleSubmit} > Add </button>
