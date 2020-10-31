@@ -62,7 +62,20 @@
 
 .list{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: 	rgba(237, 231, 246, 0.5);
     width: 95%;
     border-radius: 10px;
     margin: 5px auto;
+}
+
+.low{
+    border-left : 2px solid rgb(0, 230, 118);
+}
+
+.medium{
+    border-left : 2px solid rgb(3, 155, 229)
+}
+
+.high{
+    border-left : 2px solid rgb(244, 67, 54);
 }
