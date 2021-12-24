@@ -1,0 +1,81 @@
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 80vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.task-item{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.strikeThrough{
+    text-decoration: line-through;
+}
+
+.buttonArea{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 0px;
+    margin: 10px 20px;
+}
+
+.buttonArea > button {
+    margin: 4px;
+}
+
+.taskInput{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin: 20px 20px 20px 0px;
+    width: 40vw;
+}
+.m-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.list{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: 	rgba(237, 231, 246, 0.5);
+    width: 95%;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.low{
+    border-left : 2px solid rgb(0, 230, 118);
+}
+
+.medium{
+    border-left : 2px solid rgb(3, 155, 229)
+}
+
+.high{
+    border-left : 2px solid rgb(244, 67, 54);
+}
